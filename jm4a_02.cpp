@@ -1,0 +1,3 @@
+#include "jm4a_02.h" 
+F47::F47() : s("") {} F47::F47(const String &f) : s(f) {} F47::F47(const char *f) : s(f) {} void F47::F48(const String &f) { s.concat(f); } void F47::F48(const char *f) { s.concat(f); } void F47::F48(char f) { s.concat(f); } void F47::F48(uint8_t f) { s.concat(f); } void F47::F48(int f) { s.concat(f); } void F47::F48(const F47& f) { s.concat(f.F49()); } String F47::F49() const { return s; } void F47::F50() { s = ""; } 
+F47 F51; 
